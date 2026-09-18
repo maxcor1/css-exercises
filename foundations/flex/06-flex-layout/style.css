@@ -31,38 +31,50 @@ body {
 }
 
 .header {
-  background-color: red;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 1px;
 }
 
 .footer {
-  background-color: red;
+  background-color: #e4e2e2;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
+  padding: 1px;
 }
 
 .left-links{
   display: flex;
   flex-direction: row;
   gap: 20px;
+  padding-left: 3px;
 }
 
 .right-links{
   display: flex;
   flex-direction: row;
   gap: 20px;
+  padding-right: 3px;
 }
 
 .content{
   flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-img {
-  display: flex;
-  justify-content: center;
-  align-self: center;
+ul {
+  list-style: none;
+  font-size: 10px;
 }
+a {
+  text-decoration: none;
+  color: rgb(90, 90, 90);
+}
+
+
